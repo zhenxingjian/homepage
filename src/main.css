@@ -1,0 +1,56 @@
+.logo {
+    width: 120px;
+    height: 31px;
+    background: rgba(255, 255, 255, 0.2);
+    margin: 16px 24px 16px 0;
+    float: left;
+    color: white;
+    line-height: 31px;
+    text-align: center;
+}
+
+.paperInfo {
+    font-size: 0.6em;
+    line-height: 1.2em;
+    display: block;
+}
+
+h1 {
+    font-family: "Dosis", sans-serif;
+}
+
+.right {
+    text-align: right;
+}
+
+.justify {
+    text-align: justify;
+}
+
+.indent {
+    text-indent: 2em;
+}
+
+.smaller {
+    font-size: 0.5em;
+}
+
+.small {
+    font-size: 0.8em;
+}
+
+.large {
+    font-size: 1.4em;
+}
+
+.margin-top {
+    margin-top: 20px;
+}
+
+.margin-bottom {
+    margin-bottom: 20px;
+}
+
+.italic {
+    font-style: italic
+}
