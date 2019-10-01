@@ -29,7 +29,7 @@ export class Programs extends Component {
     };
 
     componentWillMount() {
-        getPrograms(data => this.setState({data}));
+        getPrograms(data =>this.setState({data}));
     }
 
     render() {

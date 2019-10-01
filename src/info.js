@@ -1,66 +1,135 @@
 import React, {Component} from 'react';
-import {Typography, Timeline, Icon, Row, Col, Divider, Card} from 'antd';
-import selfie from './img/Selfie.png'
+import {Typography, Timeline, Icon, Row, Col, Divider, Card, Tag, Button} from 'antd';
+import {checkUrl, getInfo} from "./getData";
 
 const {Title, Text, Paragraph} = Typography;
 const {Meta} = Card;
 
 export class Info extends Component {
+
+    state = {
+        info: null
+    };
+
+    componentWillMount() {
+        getInfo(info => this.setState({info}));
+    }
+
+    parseList = () => {
+        const where = this.state.info.where;
+        const mail = this.state.info.mail;
+        let li = [];
+        if (where)
+            li.push(...where.map((d, i) => {
+                if (typeof (d) === "string")
+                    return <li key={i}>{d}</li>;
+                if (d.url)
+                    return <li key={i}><a href={d.url}>{d.text}</a></li>;
+                else
+                    return <li key={i}>{d.text}</li>;
+            }));
+        if (mail)
+            li.push(<li key='mail'><Icon type='mail' style={{marginRight: 15}}/><Text type='secondary'
+                                                                                      copyable>{mail}</Text></li>);
+        return <ul>{li}</ul>;
+    };
+    parseEdu = () => {
+        const edu = this.state.info.education;
+        if (!edu)
+            return [];
+        return <Timeline className='timeLine' mode="left">{
+            edu.map((e, i) => {
+                const dot = e.status === "processing" ?
+                    <Icon type="clock-circle-o" style={{fontSize: '16px'}}/> : undefined;
+                let descriptions = e.descriptions;
+                if (typeof (descriptions) === "string")
+                    descriptions = [descriptions];
+                descriptions = descriptions.map((d, j) => <Paragraph key={j} type="secondary"
+                                                                     className="small">{d}</Paragraph>);
+                return <Timeline.Item dot={dot} key={i}>{descriptions}</Timeline.Item>;
+            })
+        }
+        </Timeline>
+    };
+    parseCourses = () => {
+        if (!(this.state.info.courses))
+            return [];
+        const maxShow = this.state.info.courses.maxShow;
+        const courses = this.state.info.courses.list.slice(0, maxShow);
+        const presetColors = ["magenta", "red", "volcano", "orange", "gold", "lime", "green", "cyan", "blue", "geekblue", "purple"];
+        let colors = [];
+        while (colors.length < courses.length)
+            colors.push(...presetColors);
+        let tags = courses.map((c, i) => <Tag className='smaller' key={i} color={colors[i]}>{c}</Tag>);
+        if (tags.length === 0)
+            return [];
+        if (tags.length < this.state.info.courses.list.length)
+            tags.push(<Tag key='omitted'>...</Tag>);
+        return <Paragraph><Title level={4}>Courses</Title>{tags}</Paragraph>
+    };
+    parseCV = () => {
+        let cv = this.state.info.cv;
+        if (!cv)
+            return [];
+        if (typeof (cv) !== "string") {
+            if (!(cv.show))
+                return [];
+            cv = cv.url;
+        }
+        return <li><Button type='link' onClick={() => {
+            window.open(checkUrl(cv), '_blank')
+        }}>My Resume</Button></li>;
+    };
+
     render() {
+        const info = this.state.info;
+        if (!info)
+            return <div/>;
         return (
             <div>
                 <Row type='flex' justify='space-between'>
                     <Col span={8}>
-                        <Title level={2}><Text type='secondary'>HELLO,</Text> <br/> I AM Xingjian Zhen</Title>
+                        <Title level={2}><Text type='secondary'>HELLO,</Text> <br/> I AM {info.name}</Title>
                         <Paragraph>
-                            <ul>
-                                <li><Text> <a href="https://www.wisc.edu/">University of Wisconsin-Madison</a></Text>
-                                </li>
-                                <li><Text type='secondary'><a href="http://www.cs.wisc.edu/">Department of Computer
-                                    Science</a></Text></li>
-                                <li><Icon type='mail' style={{marginRight: 15}}/><Text type='secondary'
-                                                                                       copyable>xzhen3@wisc.edu</Text>
-                                </li>
-                            </ul>
+                            {this.parseList()}
                         </Paragraph>
-                        <Divider orientation='left'> <Title level={3}
-                                                            className='right'>EDUCATION</Title></Divider>
-                        <Timeline mode="left">
-                            <Timeline.Item dot={<Icon type="clock-circle-o" style={{fontSize: '16px'}}/>}><Text
-                                type='secondary' className='small'>Aug.2017 - present<br/>Ph.D. Student<br/>Department
-                                of Computer Science<br/>UW-Madision,
-                                WI, U.S.</Text></Timeline.Item>
-                            <Timeline.Item><Text type='secondary' className='small'>Aug.2013 - Jul. 2017<br/>B.E.
-                                Department of Electronic
-                                Engineering<br/>Tsinghua University, Beijing, P.R. China</Text></Timeline.Item>
-                        </Timeline>
+                        <div className='margin-bottom-large'/>
+                        <Divider orientation='left'> <Title level={3} className="right">EDUCATION</Title></Divider>
+                        {this.parseEdu()}
+                        {this.parseCourses()}
                     </Col>
                     <Col span={6}>
-                        <a href='https://github.com/zhenxingjian'>
+                        <a href={info.github}>
                             <Card
                                 hoverable
-                                // style={{width: }}
-                                cover={<img alt="Imagine that there is a photo" src={selfie}/>}
+                                cover={<img alt="Imagine that I'm very handsome"
+                                            src={checkUrl(info.cover)}/>}
                             >
-                                <Meta title="Xingjian Zhen"
-                                      description={<p className='small'>https://github.com/zhenxingjian</p>}/>
+                                <Meta title={info.name} description={<p className='small '>{info.github}</p>}/>
                             </Card>
                         </a>
                     </Col>
                     <Col span={8}>
-                    <Divider className='margin-top'><Title level={3} >Research Interests</Title></Divider>
-                    <Paragraph type='secondary' className='justify indent'> My research interest is about different
-                        structured data for medical
-                        application in
-                        Computer Vision. Since it's quite mature for Euclidean space machine learning, I
-                        would like to explore some different structured data or constrained data. For
-                        example,
-                        the Symmetric Positive Definite matrix in medical data (DTI) or covariance matrix
-                        are the data with constraint. I want to try some neural networks in Euclidean space,
-                        and extend them to the structured data, manifold data as an example, to do the
-                        classification or regression. I believe this will be useful in diagnosis from a
-                        medical
-                        perspective or analysis of the video/image information.</Paragraph>
+                        <Divider><Title level={3}>Research Interests</Title></Divider>
+                        <Paragraph type='secondary' className='justify indent '>
+                            <div dangerouslySetInnerHTML={{__html: info.interests}}/>
+                        </Paragraph>
+                        <div className="margin-top-large"/>
+                        <Divider><Title level={3}>FYI</Title></Divider>
+                        <ul>
+                            <li><Button type='link' onClick={() => this.props.changeKey('paper')}>My
+                                Publications</Button>
+                            </li>
+                            <li><Button type='link' onClick={() => this.props.changeKey('program')}>My Programs</Button>
+                            </li>
+                            <li><Button type='link' onClick={() => this.props.changeKey('work')}>My Work
+                                Experience</Button>
+                            </li>
+                            <li><Button type='link' onClick={() => {
+                                window.open(info.github, '_blank')
+                            }}>My Github Page</Button></li>
+                            {this.parseCV()}
+                        </ul>
                     </Col>
                 </Row>
             </div>

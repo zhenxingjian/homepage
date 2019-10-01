@@ -12,6 +12,14 @@ function getData(url, callback) {
     });
 }
 
+
+export function checkUrl(url) {
+    if (url.startsWith('http'))
+        return url;
+    else
+        return publicURL + '/' + url;
+}
+
 export function getPrograms(callback) {
     const url = publicURL + '/program/programs.json';
     getData(url, callback);
@@ -24,5 +32,10 @@ export function getWorks(callback) {
 
 export function getPapers(callback) {
     const url = publicURL + '/paper/papers.json';
+    getData(url, callback);
+}
+
+export function getInfo(callback) {
+    const url = publicURL + '/info/info.json';
     getData(url, callback);
 }

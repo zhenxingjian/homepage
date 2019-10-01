@@ -70,7 +70,16 @@ h1 {
 .margin-bottom {
     margin-bottom: 20px;
 }
+.margin-bottom-large {
+    margin-bottom: 50px;
+}
 
 .italic {
     font-style: italic
+}
+.timeLine .small{
+    margin-bottom: 0.2em;
+}
+.timeLine li{
+    padding-bottom: 10px;
 }

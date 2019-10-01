@@ -1,17 +1,9 @@
 import React, {Component} from 'react';
 import {Typography, Collapse, Empty} from 'antd';
-import {getPapers} from "./getData";
+import {getPapers, checkUrl} from "./getData";
 
 const {Panel} = Collapse;
 const {Text} = Typography;
-const publicURL = process.env.PUBLIC_URL;
-
-function checkUrl(url) {
-    if (url.startsWith('http'))
-        return url;
-    else
-        return publicURL + '/' + url;
-}
 
 export class Papers extends Component {
     state = {
@@ -84,7 +76,7 @@ export class Papers extends Component {
             let strong = css.indexOf("bold") > -1;
             let mark = css.indexOf("mark") > -1;
             let cssClass = "";
-            if (css.indexOf("italic"))
+            if (css.indexOf("italic")>-1)
                 cssClass = "italic";
             texts.push(<Text strong={strong} mark={mark} key={i}
                              className={cssClass}>{content.slice(interval[0], interval[1])}</Text>);
@@ -95,7 +87,11 @@ export class Papers extends Component {
         const pdf = data.pdf;
         if (pdf)
             texts.push(<Text key='pdf'>&nbsp;&nbsp;&nbsp;&nbsp;<a href={checkUrl(pdf)}
-                                                                  target="_blank">[PDF]</a></Text>);
+                                                                  target="_blank">[pdf]</a></Text>);
+        const github = data.github;
+        if (github)
+            texts.push(<Text key='github'>&nbsp;&nbsp;&nbsp;&nbsp;<a href={checkUrl(github)}
+                                                                     target="_blank">[github]</a></Text>);
         return <Text className='paperInfo'>{texts}</Text>;
     };
 

@@ -1,0 +1,56 @@
+{
+  "name": "Xingjian Zhen",
+  "mail": "zhenxingjian1995@cs.wisc.edu",
+  "github": "https://github.com/zhenxingjian",
+  "cover": "cover/Selfie.png",
+  "where": [
+    {
+      "text": "University of Wisconsin-Madison",
+      "url": "https://www.wisc.edu/"
+    },
+    {
+      "text": "Department of Computer Science",
+      "url": "http://www.cs.wisc.edu/"
+    }
+  ],
+  "education": [
+    {
+      "descriptions": [
+        "Aug.2017 - present",
+        "Ph.D. Student",
+        "Department of Computer Science",
+        "UW-Madision, WI, U.S."
+      ],
+      "status": "processing"
+    },
+    {
+      "descriptions": [
+        "Aug.2013 - Jul. 2017",
+        "B.E. Department of Electronic Engineering",
+        "Tsinghua University, Beijing, P.R. China"
+      ],
+      "status": "done"
+    }
+  ],
+  "courses": {
+    "maxShow": 8,
+    "list": [
+      "Matrix Methods in Machine Learning",
+      "Analysis I",
+      "Introduction to Algorithms",
+      "Computer Vision",
+      "Nonlinear Optimization I",
+      "Mathematical Machine Learning",
+      "Elementary Topology",
+      "Principal of Programming Languages",
+      "Differential Geometry",
+      "Foundations of Data Management",
+      "First Course in Real Analysis"
+    ]
+  },
+  "cv": {
+    "show": true,
+    "url": "https://github.com/zhenxingjian/CV_Xingjian/blob/master/CV.pdf"
+  },
+  "interests": "<p>I'm Xingjian Zhen, a graduate student in the <a href=\"https://www.cs.wisc.edu\">Computer Science Department</a> at <a href=\"https://www.wisc.edu\">University of Wisconsin-Madison</a>. My advisor is Prof. <a href=\"https://www.biostat.wisc.edu/~vsingh/\">Vikas Singh</a>. Before that, I got my B.E. degree in <a href=\"https://www.tsinghua.edu.cn/publish/eeen/\">Department of Electronic Engineering</a> from <a href=\"https://www.tsinghua.edu.cn/publish/thu2018en/index.html\">Tsinghua University</a> in 2017. </p><p>My research interest is Computer Vision, Deep learning, Differential Geometry, and Neuroimaging. I am paritcularly interested in the application of deep learning in medical area.</p>"
+}
