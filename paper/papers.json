@@ -9,6 +9,7 @@
     "italic": "Thirty-second Annual Conference on Neural Information Processing Systems (NeurIPS), 2018",
     "arxiv": "https://arxiv.org/abs/1805.11204",
     "pdf": "paper/SPD-SRU-NIPS/SPD-SRU.pdf",
+    "github": "https://github.com/zhenxingjian/SPD-SRU",
     "supplement": {
       "type": "image",
       "src": "paper/SPD-SRU-NIPS/poster-SPD-SRU.png"
@@ -39,6 +40,7 @@
     "italic": "IEEE International Conference on Computer Vision (ICCV), 2019",
     "arxiv": null,
     "pdf": "paper/DCNN-ICCV/dcnn.pdf",
+    "github": "https://github.com/zhenxingjian/DCNN",
     "supplement": {
       "type": "video",
       "src": "<iframe width=\"966\" height=\"543\" src=\"https://www.youtube.com/embed/_nT2hrYQL0w\" frameBorder=\"0\" allow=\"accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture\" allowFullScreen/>"
