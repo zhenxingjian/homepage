@@ -9,7 +9,7 @@ const {Header, Content, Footer} = Layout;
 
 export class Main extends Component {
     state = {
-        content: null
+        content: <Info/>
     };
 
     handleMenuClick = (item) => {
@@ -54,7 +54,11 @@ export class Main extends Component {
                         <Breadcrumb.Item>List</Breadcrumb.Item>
                         <Breadcrumb.Item>App</Breadcrumb.Item>
                     </Breadcrumb>
-                    <div style={{background: '#fff', padding: 24, minHeight: 380}}>
+                    <div style={{
+                        background: '#fff',
+                        padding: 24,
+                        minHeight: 380,
+                    }}>
                         {this.state.content}
                     </div>
                 </Content>

@@ -23,7 +23,7 @@
     "test": "react-app-rewired test",
     "eject": "react-app-rewired eject"
   },
-  "homepage": "https://wangke1996.github.io/homepage",
+  "homepage": "https://zhenxingjian.github.io/homepage",
   "eslintConfig": {
     "extends": "react-app"
   },

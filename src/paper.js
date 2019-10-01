@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-import {Typography, Collapse, Timeline, Icon, Row, Col, Divider, Card} from 'antd';
+import {Typography, Collapse} from 'antd';
 import posterNips from './paper/SPD-SRU-NIPS/poster-SPD-SRU.png';
 import posterAAIC from './paper/DTI-AAIC/poster.png';
 

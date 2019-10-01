@@ -10,7 +10,7 @@ export class Info extends Component {
         return (
             <div>
                 <Row type='flex' justify='space-between'>
-                    <Col span={12}>
+                    <Col span={8}>
                         <Title level={2}><Text type='secondary'>HELLO,</Text> <br/> I AM Xingjian Zhen</Title>
                         <Paragraph>
                             <ul>
@@ -35,11 +35,11 @@ export class Info extends Component {
                                 Engineering<br/>Tsinghua University, Beijing, P.R. China</Text></Timeline.Item>
                         </Timeline>
                     </Col>
-                    <Col span={8}>
+                    <Col span={6}>
                         <a href='https://github.com/zhenxingjian'>
                             <Card
                                 hoverable
-                                style={{width: 220}}
+                                // style={{width: }}
                                 cover={<img alt="Imagine that there is a photo" src={selfie}/>}
                             >
                                 <Meta title="Xingjian Zhen"
@@ -47,6 +47,7 @@ export class Info extends Component {
                             </Card>
                         </a>
                     </Col>
+                    <Col span={8}>
                     <Divider className='margin-top'><Title level={3} >Research Interests</Title></Divider>
                     <Paragraph type='secondary' className='justify indent'> My research interest is about different
                         structured data for medical
@@ -60,6 +61,7 @@ export class Info extends Component {
                         classification or regression. I believe this will be useful in diagnosis from a
                         medical
                         perspective or analysis of the video/image information.</Paragraph>
+                    </Col>
                 </Row>
             </div>
         )
