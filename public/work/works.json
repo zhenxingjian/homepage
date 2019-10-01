@@ -1,0 +1,40 @@
+[
+  {
+    "required": {
+      "title": "Research Intern in DAMO Academy, Alibaba",
+      "from": "05/2019",
+      "to": "09/2019"
+    },
+    "detail": {
+      "Company": "Alibaba",
+      "Department": "DAMO Academy",
+      "Position": "Research Intern",
+      "Location": "Beijing, China",
+      "Descriptions": [
+        "Research intern in DAMO Academy Medical AI Algorithm Research, Alibaba",
+        "Developed an automated anatomical labeling of coronary arteries via CPR-GCN",
+        "Used 3D-CNN with BiLSTM to extract the features from the CT images along branches",
+        "Used both image domain and position information with the partial-residual connection to achieve 95.8% mean recall"
+      ]
+    }
+  },
+  {
+    "required": {
+      "title": "Research Intern in DAMO Academy, Alibaba",
+      "from": "05/2019",
+      "to": "09/2019"
+    },
+    "detail": {
+      "C.O.": "Alibaba",
+      "DEP.": "DAMO Academy",
+      "POS.": "Research Intern",
+      "Addr.": {"span": 3,"value":"Beijing, China"},
+      "Des": [
+          "Research intern in DAMO Academy Medical AI Algorithm Research, Alibaba",
+          "Developed an automated anatomical labeling of coronary arteries via CPR-GCN",
+          "Used 3D-CNN with BiLSTM to extract the features from the CT images along branches",
+          "Used both image domain and position information with the partial-residual connection to achieve 95.8% mean recall"
+        ]
+    }
+  }
+]

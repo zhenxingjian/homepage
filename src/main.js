@@ -1,7 +1,9 @@
 import React, {Component} from 'react'
 import {Layout, Menu, Breadcrumb, Typography} from 'antd';
 import {Info} from "./info";
-import {Paper} from "./paper";
+import {Papers} from "./paper";
+import {Programs} from "./program";
+import {Works} from "./work";
 import './main.css'
 
 const {Text} = Typography;
@@ -15,13 +17,18 @@ export class Main extends Component {
     handleMenuClick = (item) => {
         const key = item.key;
         let content;
-        console.log(key);
         switch (key) {
             case 'info':
                 content = <Info/>;
                 break;
             case 'paper':
-                content = <Paper/>;
+                content = <Papers/>;
+                break;
+            case 'program':
+                content=<Programs/>;
+                break;
+            case 'work':
+                content=<Works/>;
                 break;
             default:
                 content = null;
@@ -45,7 +52,7 @@ export class Main extends Component {
                         <Menu.Item key="info">Info</Menu.Item>
                         <Menu.Item key="paper">Paper</Menu.Item>
                         <Menu.Item key="program">Program</Menu.Item>
-                        <Menu.Item key="intern">Intern</Menu.Item>
+                        <Menu.Item key="work">Work</Menu.Item>
                     </Menu>
                 </Header>
                 <Content style={{padding: '0 50px', marginTop: 64}}>
