@@ -35,22 +35,22 @@
   "courses": {
     "maxShow": 8,
     "list": [
-      "Matrix Methods in Machine Learning",
-      "Analysis I",
       "Introduction to Algorithms",
       "Computer Vision",
       "Nonlinear Optimization I",
       "Mathematical Machine Learning",
       "Elementary Topology",
-      "Principal of Programming Languages",
       "Differential Geometry",
-      "Foundations of Data Management",
-      "First Course in Real Analysis"
+      "First Course in Real Analysis",
+      "Matrix Methods in Machine Learning",
+      "Analysis I",
+      "Principal of Programming Languages",
+      "Foundations of Data Management"
     ]
   },
   "cv": {
     "show": true,
-    "url": "https://github.com/zhenxingjian/CV_Xingjian/blob/master/CV.pdf"
+    "url": "https://github.com/zhenxingjian/CV_Xingjian/raw/master/CV.pdf"
   },
   "interests": "<p>I'm Xingjian Zhen, a graduate student in the <a href=\"https://www.cs.wisc.edu\">Computer Science Department</a> at <a href=\"https://www.wisc.edu\">University of Wisconsin-Madison</a>. My advisor is Prof. <a href=\"https://www.biostat.wisc.edu/~vsingh/\">Vikas Singh</a>. Before that, I got my B.E. degree in <a href=\"https://www.tsinghua.edu.cn/publish/eeen/\">Department of Electronic Engineering</a> from <a href=\"https://www.tsinghua.edu.cn/publish/thu2018en/index.html\">Tsinghua University</a> in 2017. </p><p>My research interest is Computer Vision, Deep learning, Differential Geometry, and Neuroimaging. I am paritcularly interested in the application of deep learning in medical area.</p>"
 }
