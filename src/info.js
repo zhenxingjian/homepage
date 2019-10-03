@@ -112,9 +112,9 @@ export class Info extends Component {
                         <div className="margin-top-large"/>
                         <Divider><Title level={3}>FYI</Title></Divider>
                         <ul>
-                            <li><Button type='link' onClick={() => this.props.changeKey('paper')}>My
+                            <li><Button type='link' onClick={() => this.props.changeKey('publication')}>My
                                 Publication</Button></li>
-                            <li><Button type='link' onClick={() => this.props.changeKey('program')}>My Project</Button>
+                            <li><Button type='link' onClick={() => this.props.changeKey('project')}>My Project</Button>
                             </li>
                             <li><Button type='link' onClick={() => this.props.changeKey('work')}>My Work
                                 Experience</Button>
