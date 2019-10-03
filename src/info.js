@@ -60,25 +60,20 @@ export class Info extends Component {
         let colors = [];
         while (colors.length < courses.length)
             colors.push(...presetColors);
-        let tags = courses.map((c, i) => <Tag className='smaller' key={i} color={colors[i]}>{c}</Tag>);
+        let tags = courses.map((c, i) => <Tag className='small' key={i} color={colors[i]}>{c}</Tag>);
         if (tags.length === 0)
             return [];
         if (tags.length < this.state.info.courses.list.length)
             tags.push(<Tag key='omitted'>...</Tag>);
         return <Paragraph><Title level={4}>Courses</Title>{tags}</Paragraph>
     };
-    parseCV = () => {
-        let cv = this.state.info.cv;
-        if (!cv)
+    parseFYI = () => {
+        let fyi = this.state.info.FYI;
+        if (!fyi)
             return [];
-        if (typeof (cv) !== "string") {
-            if (!(cv.show))
-                return [];
-            cv = cv.url;
-        }
-        return <li><Button type='link' onClick={() => {
-            window.open(checkUrl(cv), '_blank')
-        }}>My Resume</Button></li>;
+        return fyi.map((d, i) => <li key={i}><Button type='link' onClick={() => {
+            window.open(checkUrl(d.url), '_blank');
+        }}>{d.title}</Button></li>)
     };
 
     render() {
@@ -118,17 +113,13 @@ export class Info extends Component {
                         <Divider><Title level={3}>FYI</Title></Divider>
                         <ul>
                             <li><Button type='link' onClick={() => this.props.changeKey('paper')}>My
-                                Publications</Button>
-                            </li>
-                            <li><Button type='link' onClick={() => this.props.changeKey('program')}>My Programs</Button>
+                                Publication</Button></li>
+                            <li><Button type='link' onClick={() => this.props.changeKey('program')}>My Project</Button>
                             </li>
                             <li><Button type='link' onClick={() => this.props.changeKey('work')}>My Work
                                 Experience</Button>
                             </li>
-                            <li><Button type='link' onClick={() => {
-                                window.open(info.github, '_blank')
-                            }}>My Github Page</Button></li>
-                            {this.parseCV()}
+                            {this.parseFYI()}
                         </ul>
                     </Col>
                 </Row>

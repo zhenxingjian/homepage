@@ -1,8 +1,8 @@
 import React, {Component} from 'react'
 import {Layout, Menu, Breadcrumb, Typography, Button} from 'antd';
 import {Info} from "./info";
-import {Papers} from "./paper";
-import {Programs} from "./program";
+import {Publications} from "./publication";
+import {Projects} from "./project";
 import {Works} from "./work";
 import './main.css';
 import {getInfo} from "./getData";
@@ -30,13 +30,13 @@ export class Main extends Component {
                 content = <Info changeKey={this.changeKey.bind(this)}/>;
                 title = "About Me";
                 break;
-            case 'paper':
-                content = <Papers/>;
-                title = "Publications";
+            case 'publication':
+                content = <Publications/>;
+                title = "Publication";
                 break;
-            case 'program':
-                content = <Programs/>;
-                title = "Programs";
+            case 'project':
+                content = <Projects/>;
+                title = "Project";
                 break;
             case 'work':
                 content = <Works/>;
@@ -50,16 +50,13 @@ export class Main extends Component {
     };
 
     componentWillMount() {
-        console.log('here');
         getInfo(info => {
-            console.log(info);
             this.setState({info: info})
         });
     }
 
     render() {
         const info = this.state.info;
-        console.log(info);
         if (!info)
             return <div/>;
         return (
@@ -75,8 +72,8 @@ export class Main extends Component {
                         onClick={this.handleMenuClick}
                     >
                         <Menu.Item key="info">About Me</Menu.Item>
-                        <Menu.Item key="paper">Publications</Menu.Item>
-                        <Menu.Item key="program">Programs</Menu.Item>
+                        <Menu.Item key="publication">Publication</Menu.Item>
+                        <Menu.Item key="project">Project</Menu.Item>
                         <Menu.Item key="work">Work Experience</Menu.Item>
                     </Menu>
                 </Header>

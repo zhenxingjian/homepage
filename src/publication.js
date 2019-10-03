@@ -1,11 +1,11 @@
 import React, {Component} from 'react';
 import {Typography, Collapse, Empty} from 'antd';
-import {getPapers, checkUrl} from "./getData";
+import {getPublications, checkUrl} from "./getData";
 
 const {Panel} = Collapse;
 const {Text} = Typography;
 
-export class Papers extends Component {
+export class Publications extends Component {
     state = {
         data: []
     };
@@ -65,10 +65,10 @@ export class Papers extends Component {
 
     static header = (data) => {
         const content = data.content;
-        const boldIndex = Papers.computeIndexes(content, data.bold);
-        const italicIndex = Papers.computeIndexes(content, data.italic);
-        const markIndex = Papers.computeIndexes(content, data.mark);
-        const interval_class = Papers.computeClassArray(content, boldIndex, italicIndex, markIndex);
+        const boldIndex = Publications.computeIndexes(content, data.bold);
+        const italicIndex = Publications.computeIndexes(content, data.italic);
+        const markIndex = Publications.computeIndexes(content, data.mark);
+        const interval_class = Publications.computeClassArray(content, boldIndex, italicIndex, markIndex);
         let texts = [];
         for (let i = 0; i < interval_class.intervals.length; i++) {
             const interval = interval_class.intervals[i];
@@ -96,14 +96,14 @@ export class Papers extends Component {
     };
 
     componentWillMount() {
-        getPapers(data => this.setState({data}));
+        getPublications(data => this.setState({data}));
     }
 
     render() {
         return (
             <Collapse bordered={false} defaultActiveKey={[]}>
                 {this.state.data.map((d, i) => <Panel key={i}
-                                                      header={Papers.header(d)}>{Papers.supplementMaterial(d)}</Panel>)}
+                                                      header={Publications.header(d)}>{Publications.supplementMaterial(d)}</Panel>)}
             </Collapse>
         )
     }

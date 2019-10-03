@@ -20,8 +20,8 @@ export function checkUrl(url) {
         return publicURL + '/' + url;
 }
 
-export function getPrograms(callback) {
-    const url = publicURL + '/program/programs.json';
+export function getProjects(callback) {
+    const url = publicURL + '/project/projects.json';
     getData(url, callback);
 }
 
@@ -30,8 +30,8 @@ export function getWorks(callback) {
     getData(url, callback);
 }
 
-export function getPapers(callback) {
-    const url = publicURL + '/paper/papers.json';
+export function getPublications(callback) {
+    const url = publicURL + '/publication/publications.json';
     getData(url, callback);
 }
 

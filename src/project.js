@@ -1,10 +1,10 @@
 import React, {Component} from 'react';
-import {getPrograms} from "./getData";
+import {getProjects} from "./getData";
 import {Typography, Divider} from 'antd';
 
 const {Title, Paragraph} = Typography;
 
-class Program extends Component {
+class Project extends Component {
     render() {
         const data = this.props.data;
         const orient = this.props.order % 2 ? 'right' : 'left';
@@ -23,19 +23,19 @@ class Program extends Component {
     }
 }
 
-export class Programs extends Component {
+export class Projects extends Component {
     state = {
         data: []
     };
 
     componentWillMount() {
-        getPrograms(data =>this.setState({data}));
+        getProjects(data =>this.setState({data}));
     }
 
     render() {
         return (
             <div>
-                {this.state.data.map((d, i) => <Program data={d} key={i} order={i}/>)}
+                {this.state.data.map((d, i) => <Project data={d} key={i} order={i}/>)}
             </div>
         )
     }
