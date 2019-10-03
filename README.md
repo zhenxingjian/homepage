@@ -8,8 +8,8 @@
 
         publication/publications.json
         
-3. Modify Publication Page:
+3. Modify Work Experience Page:
 
-        publication/publications.json
+        work/works.json
         
         
