@@ -38,7 +38,7 @@
       "Dilated Convolutional Neural Networks for Sequential Manifoldvalued Data."
     ],
     "italic": "IEEE International Conference on Computer Vision (ICCV), 2019",
-    "arxiv": null,
+    "arxiv": "https://arxiv.org/abs/1910.02206",
     "pdf": "publication/DCNN-ICCV/dcnn.pdf",
     "github": "https://github.com/zhenxingjian/DCNN",
     "supplement": {
