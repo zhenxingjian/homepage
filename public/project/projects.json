@@ -51,5 +51,26 @@
       "Used the bidirectional RNN method to achieve the state of the art, with MXNet as the core of the deep-learning system",
       "Tested in multiple databases such as the NIST Special Database 2 and got a high accuracy rate"
     ]
+  },
+  {
+    "title": "Keywords Detection in Video",
+    "start": "09/2016",
+    "end": "11/2016",
+    "descriptions": [
+      "Developed a system that detects and recognizes Chinese characters in videos",
+      "Conducted  edge  detection  and  stroke  width  transform  to  generate  candidatepatches that might contain characters",
+      "Used the GoogLeNet to recognize characters in the patches with high likelihood",
+      "Implemented the A-star search with distance heuristic to speed up the detectionof characters in following frames"
+    ]
+  },
+  {
+    "title": "Emotion Detection in Voice Recordings",
+    "start": "07/2016",
+    "end": "08/2016",
+    "descriptions": [
+      "Used different classifiers to predict the emotion of a speaker in a voice memo",
+      "Extracted voice features like MFCC, LPCC, Zero Cross Rate, etc., from FAU Aibo Emotion Corpus dataset",
+      "Trained both an SVM and a neural network using the features, tested them, and compared their accuracy with the state-of-the-art"
+    ]
   }
 ]

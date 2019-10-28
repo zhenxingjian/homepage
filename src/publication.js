@@ -13,12 +13,20 @@ export class Publications extends Component {
         const supplement = data.supplement;
         if (!supplement)
             return <Empty description="There is no supplement materials for this paper."/>;
-        if (supplement.type === 'image')
-            return <img width='100%' alt='imagine there is a poster' src={checkUrl(supplement.src)}/>;
-        else if (supplement.type === 'video')
-            return <div dangerouslySetInnerHTML={{__html: supplement.src}}/>;
+        let supplementArray;
+        if (supplement.length === undefined)
+            supplementArray = [supplement];
         else
-            return <Empty description="There is no supplement materials for this paper."/>;
+            supplementArray = supplement;
+        return supplementArray.map((s, i) => {
+            if (s.type === 'image')
+                return <img key={i} width='100%' alt='imagine there is a poster' src={checkUrl(s.src)}/>;
+            else if (s.type === 'video')
+                return <div key={i} dangerouslySetInnerHTML={{__html: s.src}}/>;
+            else
+                return <div key={i}/>;
+
+        });
     };
 
     static computeIndexes(str, subStr) {
@@ -76,7 +84,7 @@ export class Publications extends Component {
             let strong = css.indexOf("bold") > -1;
             let mark = css.indexOf("mark") > -1;
             let cssClass = "";
-            if (css.indexOf("italic")>-1)
+            if (css.indexOf("italic") > -1)
                 cssClass = "italic";
             texts.push(<Text strong={strong} mark={mark} key={i}
                              className={cssClass}>{content.slice(interval[0], interval[1])}</Text>);
