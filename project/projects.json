@@ -1,12 +1,22 @@
 [
   {
-    "title": "Flow-based generative model for non-Euclidean data, manifold",
+    "title": "Flow-based Generative Model for Non-Euclidean Data, Manifold",
     "start": "03/2019",
-    "end": "09/2019",
+    "end": "12/2019",
     "descriptions": [
       "Introduced three invertible layers whose determinant of Jacobian is simple",
       "Built the two-stream version of GLOW that can transfer information from one manifold to another",
-      "Showed the ability to transfer DTI to corresponding ODF, and vice versa"
+      "Showed the ability to transfer DTI to corresponding ODF, and vice versa",
+      "Generated/ Mixed the texture images from the corresponding covariance matrices"
+    ]
+  },
+  {
+    "title": "Point Cloud Completion",
+    "start": "09/2019",
+    "end": "11/2019",
+    "descriptions": [
+      "Used encoder-decoder based network to roughly complete the point cloud",
+      "Found nearest neighbor in the training dataset to extract local information"
     ]
   },
   {
