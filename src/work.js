@@ -1,8 +1,9 @@
 import React, {Component} from 'react';
 import {Typography, Descriptions, Divider} from 'antd';
 import {getWorks} from "./getData";
+import {Loading} from "./elements";
 
-const {Title, Paragraph, Text} = Typography;
+const {Title, Text} = Typography;
 
 class Work extends Component {
     parseData = (key, val) => {
@@ -35,14 +36,18 @@ class Work extends Component {
 export class Works extends Component {
 
     state = {
-        data: []
+        data: [],
+        loading: false
     };
 
     componentWillMount() {
-        getWorks(data => this.setState({data}));
+        this.setState({loading: true});
+        getWorks(data => this.setState({data, loading: false}));
     }
 
     render() {
+        if (this.state.loading)
+            return <Loading tip="Wait a second, my work experience is impressive!" size="large"/>;
         return (
             <div>
                 {this.state.data.map((d, i) => <Work data={d} key={i}/>)}

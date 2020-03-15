@@ -6,6 +6,7 @@ import {Projects} from "./project";
 import {Works} from "./work";
 import './main.css';
 import {getInfo} from "./getData";
+import {Loading} from "./elements";
 
 const {Text} = Typography;
 const {Header, Content, Footer} = Layout;
@@ -19,7 +20,8 @@ export class Main extends Component {
         info: [],
         content: <Info changeKey={this.changeKey.bind(this)}/>,
         title: "About Me",
-        key: "info"
+        key: "info",
+        loading: false,
     };
     handleMenuClick = (item) => {
         const key = item.key;
@@ -50,15 +52,16 @@ export class Main extends Component {
     };
 
     componentWillMount() {
+        this.setState({loading: true});
         getInfo(info => {
-            this.setState({info: info})
+            this.setState({info: info, loading: false})
         });
     }
 
     render() {
         const info = this.state.info;
-        if (!info)
-            return <div/>;
+        if (!info || this.state.loading)
+            return <Loading/>;
         return (
             <Layout>
                 <Header style={{position: 'fixed', zIndex: 1, width: '100%'}}>

@@ -18,18 +18,28 @@
 h1 {
     font-family: "Dosis", sans-serif;
 }
-.left{
+
+.center {
+    display: block;
+    margin: 0 auto;
+}
+
+.left {
     text-align: left;
 }
+
 .right {
     text-align: right;
 }
-.leftList{
+
+.leftList {
     direction: ltr;
 }
-.rightList{
+
+.rightList {
     direction: rtl;
 }
+
 .justify {
     text-align: justify;
 }
@@ -49,27 +59,39 @@ h1 {
 .large {
     font-size: 1.4em;
 }
+
 .margin-left {
     margin-left: 20px;
 }
+
 .margin-left-large {
     margin-left: 50px;
 }
+
 .margin-right {
     margin-right: 20px;
 }
+
 .margin-right-large {
     margin-right: 50px;
 }
+
 .margin-top {
     margin-top: 20px;
 }
+
 .margin-top-large {
     margin-top: 50px;
 }
+
+.margin-top-larger {
+    margin-top: 100px;
+}
+
 .margin-bottom {
     margin-bottom: 20px;
 }
+
 .margin-bottom-large {
     margin-bottom: 50px;
 }
@@ -77,9 +99,11 @@ h1 {
 .italic {
     font-style: italic
 }
-.timeLine .small{
+
+.timeLine .small {
     margin-bottom: 0.2em;
 }
-.timeLine li{
+
+.timeLine li {
     padding-bottom: 10px;
 }

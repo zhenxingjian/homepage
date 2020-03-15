@@ -1,13 +1,15 @@
 import React, {Component} from 'react';
 import {Typography, Collapse, Empty} from 'antd';
 import {getPublications, checkUrl} from "./getData";
+import {Loading} from "./elements";
 
 const {Panel} = Collapse;
 const {Text} = Typography;
 
 export class Publications extends Component {
     state = {
-        data: []
+        data: [],
+        loading: false
     };
     static supplementMaterial = (data) => {
         const supplement = data.supplement;
@@ -100,15 +102,18 @@ export class Publications extends Component {
         if (github)
             texts.push(<Text key='github'>&nbsp;&nbsp;&nbsp;&nbsp;<a href={checkUrl(github)}
                                                                      target="_blank">[github]</a></Text>);
-        return <span><Text className='paperInfo' style={{"background": data.background}}>{texts}</Text></span>;
+        return <Text className='paperInfo' style={{"background": data.background}}>{texts}</Text>;
 
     };
 
     componentWillMount() {
-        getPublications(data => this.setState({data}));
+        this.setState({loading: true});
+        getPublications(data => this.setState({data, loading: false}));
     }
 
     render() {
+        if (this.state.loading)
+            return <Loading tip="Wait a second, u will see wonderful papers!"/>;
         return (
             <Collapse bordered={false} defaultActiveKey={[]}>
                 {this.state.data.map((d, i) => <Panel key={i}

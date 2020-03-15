@@ -1,6 +1,7 @@
 import React, {Component} from 'react';
 import {Typography, Timeline, Icon, Row, Col, Divider, Card, Tag, Button} from 'antd';
 import {checkUrl, getInfo} from "./getData";
+import {Loading} from "./elements";
 
 const {Title, Text, Paragraph} = Typography;
 const {Meta} = Card;
@@ -8,11 +9,13 @@ const {Meta} = Card;
 export class Info extends Component {
 
     state = {
-        info: null
+        info: null,
+        loading: false,
     };
 
     componentWillMount() {
-        getInfo(info => this.setState({info}));
+        this.setState({loading: true});
+        getInfo(info => this.setState({info, loading: false}));
     }
 
     parseList = () => {
@@ -78,8 +81,8 @@ export class Info extends Component {
 
     render() {
         const info = this.state.info;
-        if (!info)
-            return <div/>;
+        if (!info || this.state.loading)
+            return <Loading tip="Wait a second, I'm coming!"/>;
         return (
             <div>
                 <Row type='flex' justify='space-between'>

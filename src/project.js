@@ -1,6 +1,7 @@
 import React, {Component} from 'react';
 import {getProjects} from "./getData";
 import {Typography, Divider} from 'antd';
+import {Loading} from "./elements";
 
 const {Title, Paragraph} = Typography;
 
@@ -25,14 +26,18 @@ class Project extends Component {
 
 export class Projects extends Component {
     state = {
-        data: []
+        data: [],
+        loading: false,
     };
 
     componentWillMount() {
-        getProjects(data =>this.setState({data}));
+        this.setState({loading: true});
+        getProjects(data => this.setState({data, loading: false}));
     }
 
     render() {
+        if (this.state.loading)
+            return <Loading tip="Wait a second, my projects are wonderful!" size="large"/>;
         return (
             <div>
                 {this.state.data.map((d, i) => <Project data={d} key={i} order={i}/>)}
