@@ -100,7 +100,8 @@ export class Publications extends Component {
         if (github)
             texts.push(<Text key='github'>&nbsp;&nbsp;&nbsp;&nbsp;<a href={checkUrl(github)}
                                                                      target="_blank">[github]</a></Text>);
-        return <Text className='paperInfo'>{texts}</Text>;
+        return <span><Text className='paperInfo' style={{"background": data.background}}>{texts}</Text></span>;
+
     };
 
     componentWillMount() {

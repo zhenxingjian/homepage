@@ -1,34 +1,17 @@
 [
   {
-    "content": "Rudrasis Chakraborty, Chun-Hao Yang*, Xingjian Zhen*, Monami Banerjee, Derek Archer, David Vaillancourt, Vikas Singh, Baba C. Vemuri. \"A Statistical Recurrent Model on the Manifold of Symmetric Positive Definite Matrices.\" In Thirty-second Annual Conference on Neural Information Processing Systems (NeurIPS), 2018",
-    "mark": "Xingjian Zhen",
+    "content": "Xingjian Zhen*, Han Yang*, Ying Chi, Lei Zhang, Xiansheng Hua. \"CPR-GCN: Conditional Partial-Residual Graph Convolutional Network in Automated Anatomical Labeling of Coronary Arteries.\" IEEE Conference on Computer Vision and Pattern Recognition (CVPR) oral, 2020",
+    "mark": [],
     "bold": [
       "Xingjian Zhen",
-      "A Statistical Recurrent Model on the Manifold of Symmetric Positive Definite Matrices."
+      "CPR-GCN: Conditional Partial-Residual Graph Convolutional Network in Automated Anatomical Labeling of Coronary Arteries."
     ],
-    "italic": "Thirty-second Annual Conference on Neural Information Processing Systems (NeurIPS), 2018",
-    "arxiv": "https://arxiv.org/abs/1805.11204",
-    "pdf": "publication/SPD-SRU-NIPS/SPD-SRU.pdf",
-    "github": "https://github.com/zhenxingjian/SPD-SRU",
-    "supplement": {
-      "type": "image",
-      "src": "publication/SPD-SRU-NIPS/poster-SPD-SRU.png"
-    }
-  },
-  {
-    "content": "Xingjian Zhen, Rudrasis Chakraborty, Nicholas Vogt, Seong Jae Hwang, Sterling C. Johnson, Barbara B. Bendlin, Vikas Singh. \"Group Analysis for PiB Status with Seqential Deep Learning Model on DTI.\" Alzheimer's Association International Conference (AAIC), 2019",
-    "mark": "Xingjian Zhen",
-    "bold": [
-      "Xingjian Zhen",
-      "Group Analysis for PiB Status with Seqential Deep Learning Model on DTI."
-    ],
-    "italic": "Alzheimer's Association International Conference (AAIC), 2019",
+    "italic": "IEEE Conference on Computer Vision and Pattern Recognition (CVPR) oral, 2020",
     "arxiv": null,
     "pdf": null,
-    "supplement": {
-      "type": "image",
-      "src": "publication/DTI-AAIC/poster.png"
-    }
+    "github": null,
+    "supplement": null,
+    "background": "rgba(24,144,255,0.5)"
   },
   {
     "content": "Xingjian Zhen*, Rudrasis Chakraborty*, Nicholas Vogt, Barbara B. Bendlin, Vikas Singh. \"Dilated Convolutional Neural Networks for Sequential Manifoldvalued Data.\" IEEE International Conference on Computer Vision (ICCV), 2019",
@@ -51,5 +34,36 @@
         "src": "<iframe width=\"966\" height=\"543\" src=\"https://www.youtube.com/embed/_nT2hrYQL0w\" frameBorder=\"0\" allow=\"accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture\" allowFullScreen/>"
       }
     ]
+  },
+  {
+    "content": "Xingjian Zhen, Rudrasis Chakraborty, Nicholas Vogt, Seong Jae Hwang, Sterling C. Johnson, Barbara B. Bendlin, Vikas Singh. \"Sequential Deep Learning Algorithms Show Structural Connectivity Differences By Amyloid Status.\" Alzheimer's Association International Conference (AAIC), 2019",
+    "mark": "Xingjian Zhen",
+    "bold": [
+      "Xingjian Zhen",
+      "Sequential Deep Learning Algorithms Show Structural Connectivity Differences By Amyloid Status."
+    ],
+    "italic": "Alzheimer's Association International Conference (AAIC), 2019",
+    "arxiv": null,
+    "pdf": "publication/DTI-AAIC/AAIC2019.pdf",
+    "supplement": {
+      "type": "image",
+      "src": "publication/DTI-AAIC/poster.png"
+    }
+  },
+  {
+    "content": "Rudrasis Chakraborty, Xingjian Zhen*, Chun-Hao Yang*, Monami Banerjee, Derek Archer, David Vaillancourt, Vikas Singh, Baba C. Vemuri. \"A Statistical Recurrent Model on the Manifold of Symmetric Positive Definite Matrices.\" In Thirty-second Annual Conference on Neural Information Processing Systems (NeurIPS), 2018",
+    "mark": "Xingjian Zhen",
+    "bold": [
+      "Xingjian Zhen",
+      "A Statistical Recurrent Model on the Manifold of Symmetric Positive Definite Matrices."
+    ],
+    "italic": "Thirty-second Annual Conference on Neural Information Processing Systems (NeurIPS), 2018",
+    "arxiv": "https://arxiv.org/abs/1805.11204",
+    "pdf": "publication/SPD-SRU-NIPS/SPD-SRU.pdf",
+    "github": "https://github.com/zhenxingjian/SPD-SRU",
+    "supplement": {
+      "type": "image",
+      "src": "publication/SPD-SRU-NIPS/poster-SPD-SRU.png"
+    }
   }
 ]
