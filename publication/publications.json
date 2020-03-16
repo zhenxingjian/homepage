@@ -4,7 +4,8 @@
     "mark": ["Xingjian Zhen"],
     "bold": [
       "Xingjian Zhen",
-      "CPR-GCN: Conditional Partial-Residual Graph Convolutional Network in Automated Anatomical Labeling of Coronary Arteries."
+      "CPR-GCN: Conditional Partial-Residual Graph Convolutional Network in Automated Anatomical Labeling of Coronary Arteries.",
+      "oral"
     ],
     "italic": "IEEE Conference on Computer Vision and Pattern Recognition (CVPR) oral, 2020",
     "arxiv": null,
@@ -13,14 +14,14 @@
     "supplement": null,
     "background": "rgba(227,242,254,0.5)",
     "colorMap": {
-      "rgba(179,30,31,1)": [
+      "rgba(200,30,31,1)": [
         "oral"
       ],
       "rgba(255,0,0,1)": []
     }
   },
   {
-    "content": "Xingjian Zhen*, Rudrasis Chakraborty*, Nicholas Vogt, Barbara B. Bendlin, Vikas Singh. \"Dilated Convolutional Neural Networks for Sequential Manifoldvalued Data.\" IEEE International Conference on Computer Vision (ICCV), 2019",
+    "content": "\"Dilated Convolutional Neural Networks for Sequential Manifoldvalued Data.\" \n Xingjian Zhen*, Rudrasis Chakraborty*, Nicholas Vogt, Barbara B. Bendlin, Vikas Singh. \n IEEE International Conference on Computer Vision (ICCV), 2019",
     "mark": "Xingjian Zhen",
     "bold": [
       "Xingjian Zhen",
@@ -42,7 +43,7 @@
     ]
   },
   {
-    "content": "Xingjian Zhen, Rudrasis Chakraborty, Nicholas Vogt, Seong Jae Hwang, Sterling C. Johnson, Barbara B. Bendlin, Vikas Singh. \"Sequential Deep Learning Algorithms Show Structural Connectivity Differences By Amyloid Status.\" Alzheimer's Association International Conference (AAIC), 2019",
+    "content": "\"Sequential Deep Learning Algorithms Show Structural Connectivity Differences By Amyloid Status.\" \n Xingjian Zhen, Rudrasis Chakraborty, Nicholas Vogt, Seong Jae Hwang, Sterling C. Johnson, Barbara B. Bendlin, Vikas Singh. \n Alzheimer's Association International Conference (AAIC), 2019",
     "mark": "Xingjian Zhen",
     "bold": [
       "Xingjian Zhen",
@@ -57,7 +58,7 @@
     }
   },
   {
-    "content": "Rudrasis Chakraborty, Xingjian Zhen*, Chun-Hao Yang*, Monami Banerjee, Derek Archer, David Vaillancourt, Vikas Singh, Baba C. Vemuri. \"A Statistical Recurrent Model on the Manifold of Symmetric Positive Definite Matrices.\" In Thirty-second Annual Conference on Neural Information Processing Systems (NeurIPS), 2018",
+    "content": "\"A Statistical Recurrent Model on the Manifold of Symmetric Positive Definite Matrices.\" \n Rudrasis Chakraborty, Xingjian Zhen*, Chun-Hao Yang*, Monami Banerjee, Derek Archer, David Vaillancourt, Vikas Singh, Baba C. Vemuri. \n In Thirty-second Annual Conference on Neural Information Processing Systems (NeurIPS), 2018",
     "mark": "Xingjian Zhen",
     "bold": [
       "Xingjian Zhen",
