@@ -1,7 +1,7 @@
 [
   {
-    "content": "Xingjian Zhen*, Han Yang*, Ying Chi, Lei Zhang, Xiansheng Hua.\n \"CPR-GCN: Conditional Partial-Residual Graph Convolutional Network in Automated Anatomical Labeling of Coronary Arteries.\" <br/> IEEE Conference on Computer Vision and Pattern Recognition (CVPR) oral, 2020",
-    "mark": ["Xingjian Zhen", "oral"],
+    "content": "Xingjian Zhen*, Han Yang*, Ying Chi, Lei Zhang, Xiansheng Hua. \n\"CPR-GCN: Conditional Partial-Residual Graph Convolutional Network in Automated Anatomical Labeling of Coronary Arteries.\" IEEE Conference on Computer Vision and Pattern Recognition (CVPR) oral, 2020",
+    "mark": [],
     "bold": [
       "Xingjian Zhen",
       "CPR-GCN: Conditional Partial-Residual Graph Convolutional Network in Automated Anatomical Labeling of Coronary Arteries."
@@ -11,10 +11,17 @@
     "pdf": null,
     "github": null,
     "supplement": null,
-    "background": "rgba(227,242,254,0.5)"
+    "background": "rgba(24,144,255,0.5)",
+    "colorMap": {
+      "rgba(0,255,0,1)": [
+        "oral",
+        "CVPR"
+      ],
+      "rgba(255,0,0,1)": "Xingjian Zhen"
+    }
   },
   {
-    "content": "Xingjian Zhen*, Rudrasis Chakraborty*, Nicholas Vogt, Barbara B. Bendlin, Vikas Singh. \"Dilated Convolutional Neural Networks for Sequential Manifold-valued Data.\" IEEE International Conference on Computer Vision (ICCV), 2019",
+    "content": "Xingjian Zhen*, Rudrasis Chakraborty*, Nicholas Vogt, Barbara B. Bendlin, Vikas Singh. \"Dilated Convolutional Neural Networks for Sequential Manifoldvalued Data.\" IEEE International Conference on Computer Vision (ICCV), 2019",
     "mark": "Xingjian Zhen",
     "bold": [
       "Xingjian Zhen",
