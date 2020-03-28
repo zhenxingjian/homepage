@@ -10,6 +10,7 @@
       "Department": "DAMO Academy",
       "Position": "Research Intern",
       "Location": {"span": 3,"value":"Beijing, China"},
+      "Mentor": {"span": 3,"value":"Ying Chi"},
       "Descriptions": [
         "Research intern in DAMO Academy Medical AI Algorithm Research, Alibaba",
         "Developed an automated anatomical labeling of coronary arteries via CPR-GCN",
