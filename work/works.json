@@ -1,6 +1,25 @@
 [
   {
     "required": {
+      "title": "Applied Scientist Intern in Amazon",
+      "from": "05/2020",
+      "to": "09/2020"
+    },
+    "detail": {
+      "Company": "Amazon",
+      "Department": "PARS-ML",
+      "Position": "Applied Scientist Intern",
+      "Location": {"span": 3,"value":"Seattle, US"},
+      "Mentor": {"span": 3,"value":"Karen Hovsepian, and Mingwei Shen"},
+      "Descriptions": [
+        "Built an end-to-end three-modes model to generate answer, textual explanation, and visual saliency explanation. Got 1% better answer accuracy, 0.283 Bleu-4 on textual explanation",
+        "Collected a novel TextVQA-X dataset from public available TextVQA with extra textual explanation and visual explanation",
+        "Introduced graph neural network and the noise augmentation to improve the robustness"
+      ]
+    }
+  },
+  {
+    "required": {
       "title": "Research Intern in DAMO Academy, Alibaba",
       "from": "05/2019",
       "to": "09/2019"

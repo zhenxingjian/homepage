@@ -1,5 +1,15 @@
 [
   {
+    "title": "Certiﬁed Robustness Training via Gaussian Distribution",
+    "start": "01/2020",
+    "end": "05/2020",
+    "descriptions": [
+      "Applied the certiﬁable randomized smoothing robustness without sampling with 2× faster",
+      "Proposed a tighter estimation of the channel wise Gaussian distribution",
+      "Achieved 5% higher certiﬁed accuracy as well as a larger certiﬁed radius on Cifar-10 and SVHN"
+    ]
+  },
+  {
     "title": "Flow-based Generative Model for Non-Euclidean Data, Manifold",
     "start": "03/2019",
     "end": "12/2019",
