@@ -1,5 +1,20 @@
 [
   {
+    "content": "\"Flow-based Generative Models for Learning Manifold to Manifold Mappings.\" \n Xingjian Zhen, Rudrasis Chakraborty, Liu Yang, Vikas Singh. \n AAAI Conference on Artificial Intelligence (AAAI), 2021",
+    "mark": "Xingjian Zhen",
+    "bold": [
+      "Xingjian Zhen",
+      "Flow-based Generative Models for Learning Manifold to Manifold Mappings."
+    ],
+    "italic": "AAAI Conference on Artificial Intelligence (AAAI), 2021",
+    "arxiv": null,
+    "pdf": null,
+    "supplement": {
+      "type": "video",
+      "src": "<iframe width=\"966\" height=\"543\" src=\"https://www.youtube.com/embed/iV2Amk68ZT4\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>"
+    }
+  },
+  {
     "content": "\"CPR-GCN: Conditional Partial-Residual Graph Convolutional Network in Automated Anatomical Labeling of Coronary Arteries.\" \n Xingjian Zhen*, Han Yang*, Ying Chi, Lei Zhang, Xian-Sheng Hua. \n IEEE Conference on Computer Vision and Pattern Recognition (CVPR) oral, 2020",
     "mark": ["Xingjian Zhen"],
     "bold": [
