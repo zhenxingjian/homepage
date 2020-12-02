@@ -16,7 +16,8 @@
     "descriptions": [
       "Introduced three invertible layers on manifold-valued data whose determinant of Jacobian is simple",
       "Built the two-stream GLOW that can transfer information from one manifold to another",
-      "Transferred DTI to corresponding ODF with a small reconstruction error and maintaining verifiable group differences with p-value <0.001 \n In reality, this can save scanning time from 35 mins to 7-9 mins",
+      "Transferred DTI to corresponding ODF with a small reconstruction error and maintaining verifiable group differences with p-value <0.001", 
+      "In reality, this can save scanning time from 35 mins to 7-9 mins",
       "Generated/ Mixed texture images based on the local covariance matrices"
     ]
   },
