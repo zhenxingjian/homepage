@@ -36,13 +36,14 @@
   "courses": {
     "maxShow": 8,
     "list": [
-      "Introduction to Algorithms",
       "Computer Vision",
       "Nonlinear Optimization I",
+      "Convex Analysis",
       "Mathematical Machine Learning",
       "Elementary Topology",
       "Differential Geometry",
       "First Course in Real Analysis",
+      "Introduction to Algorithms",
       "Matrix Methods in Machine Learning",
       "Analysis I",
       "Principal of Programming Languages",
