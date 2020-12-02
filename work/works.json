@@ -12,9 +12,9 @@
       "Location": {"span": 3,"value":"Seattle, US"},
       "Mentor": {"span": 3,"value":"Karen Hovsepian, and Mingwei Shen"},
       "Descriptions": [
-        "Built an end-to-end three-modes model to generate answer, textual explanation, and visual saliency explanation. Got 1% better answer accuracy, 0.283 Bleu-4 on textual explanation",
-        "Collected a novel TextVQA-X dataset from public available TextVQA with extra textual explanation and visual explanation",
-        "Introduced graph neural network and the noise augmentation to improve the robustness"
+        "Built an end-to-end three-modes model to generate answer, textual explanation, and visual saliency explanation with graph neural network and the noise augmentation to improve the robustness",
+        "Got 1% better answer accuracy, 7% better textual explanation CIDEr, and 2% better visual explanation IoU",
+        "Collected a novel TextVQA-X dataset from public available TextVQA with extra textual explanation and visual explanation"
       ]
     }
   },
@@ -33,7 +33,7 @@
       "Descriptions": [
         "Developed an automated anatomical labeling of coronary arteries via CPR-GCN",
         "Used 3D CNN with BiLSTM to extract the features from the CT images along branches",
-        "Combined both image domain and position information with the partial-residual connection to achieve 95.8% mean recall"
+        "Combined both image domain and position information with the partial-residual connection to achieve 95.8% mean recall, 9% improvement from baseline"
       ]
     }
   }
