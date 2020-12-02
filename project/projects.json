@@ -4,9 +4,9 @@
     "start": "01/2020",
     "end": "05/2020",
     "descriptions": [
-      "Applied the certiﬁable randomized smoothing robustness without sampling with 2× faster",
-      "Proposed a tighter estimation of the channel wise Gaussian distribution",
-      "Achieved 5% higher certiﬁed accuracy as well as a larger certiﬁed radius on Cifar-10 and SVHN"
+      "Applied the certifiable randomized smoothing robustness without sampling with 2× to 5× faster",
+      "Proposed a tight estimation of the channel-wise Gaussian distribution to reduce the cost from exponential to linear",
+      "Achieved 5% better certified accuracy as well as a larger certified radius on ImageNet and Places365"
     ]
   },
   {
@@ -14,9 +14,9 @@
     "start": "03/2019",
     "end": "12/2019",
     "descriptions": [
-      "Introduced three invertible layers whose determinant of Jacobian is simple",
-      "Built the two-stream version of GLOW that can transfer information from one manifold to another",
-      "Transferred DTI to corresponding ODF, and vice versa, with a small reconstruction error as well as maintaining verifiable group differences with p−value < 0.001",
+      "Introduced three invertible layers on manifold-valued data whose determinant of Jacobian is simple",
+      "Built the two-stream GLOW that can transfer information from one manifold to another",
+      "Transferred DTI to corresponding ODF with a small reconstruction error and maintaining verifiable group differences with p-value <0.001 \n In reality, this can save scanning time from 35 mins to 7-9 mins",
       "Generated/ Mixed texture images based on the local covariance matrices"
     ]
   },
@@ -45,9 +45,9 @@
     "end": "12/2018",
     "descriptions": [
       "Pre-processed the dMRI to extract the centerline/ average values along fiber bundles",
-      "Applied SPD/S^2 manifold into the Dilated CNN model to extract information from DTI/ ODF",
-      "Sped up the training and testing phases 5 times with a competitive number of parameters with the state of the art model",
-      "Got statistically significant differences on 5 fiber bundles, with CSF, PiB and APOE biomarkers"
+      "Applied SPD/S^n manifold into the Dilated CNN model to extract information from DTI/ ODF",
+      "Sped up the training and testing phases 5× with a competitive number of parameters with the state of the art model",
+      "Got statistically significant differences on 5 (out of 18) fiber bundles, with CSF, PiB and APOE biomarkers"
     ]
   },
   {
