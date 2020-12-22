@@ -7,7 +7,7 @@
       "Flow-based Generative Models for Learning Manifold to Manifold Mappings."
     ],
     "italic": "AAAI Conference on Artificial Intelligence (AAAI), 2021",
-    "arxiv": null,
+    "arxiv": "https://arxiv.org/abs/2012.10013",
     "pdf": "publication/manifold_GLOW-AAAI2021/manifolddualglow.pdf",
     "github": "https://github.com/zhenxingjian/Dual_Manifold_GLOW",
     "supplement": {
