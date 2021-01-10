@@ -10,10 +10,12 @@
     "arxiv": "https://arxiv.org/abs/2012.10013",
     "pdf": "publication/manifold_GLOW-AAAI2021/manifolddualglow.pdf",
     "github": "https://github.com/zhenxingjian/Dual_Manifold_GLOW",
-    "supplement": {
-      "type": "video",
-      "src": "<iframe width=\"966\" height=\"543\" src=\"https://www.youtube.com/embed/XFjoZJb_41E\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>"
-    }
+    "supplement": [
+      {
+        "type": "video",
+        "src": "<iframe width=\"966\" height=\"543\" src=\"https://www.youtube.com/embed/XFjoZJb_41E\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>"
+      },
+    ]
   },
   {
     "content": "\"CPR-GCN: Conditional Partial-Residual Graph Convolutional Network in Automated Anatomical Labeling of Coronary Arteries.\" \n Xingjian Zhen*, Han Yang*, Ying Chi, Lei Zhang, Xian-Sheng Hua. \n IEEE Conference on Computer Vision and Pattern Recognition (CVPR) oral, 2020",
