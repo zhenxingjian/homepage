@@ -40,6 +40,10 @@
       },
       {
         "type": "video",
+        "src": "<iframe width=\"966\" height=\"543\" src=\"https://www.youtube.com/watch?v=nCpeyaEDeEs\" frameborder=\"0\" allow=\"accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen/>"
+      },
+      {
+        "type": "video",
         "src": "<iframe width=\"966\" height=\"543\" src=\"https://www.youtube.com/embed/EotR7l_cJeQ\" frameborder=\"0\" allow=\"accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen/>"
       }
     ],
