@@ -15,10 +15,10 @@
         "type": "video",
         "src": "<iframe width=\"1280\" height=\"720\" src=\"https://www.youtube.com/embed/XFjoZJb_41E\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>"
       },
-      {
-        "type": "video",
-        "src": "<iframe width=\"1280\" height=\"720\" src=\"https://www.youtube.com/embed/0r96U0vXsCM\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>"
-      },
+      // {
+      //   "type": "video",
+      //   "src": "<iframe width=\"1280\" height=\"720\" src=\"https://www.youtube.com/embed/0r96U0vXsCM\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>"
+      // },
     ]
   },
   {
