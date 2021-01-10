@@ -12,8 +12,8 @@
     "github": "https://github.com/zhenxingjian/Dual_Manifold_GLOW",
     "supplement": [
       {
-        "type": "image",
-        "src": "publication/DCNN-ICCV/ICCVposter.png"
+        "type": "video",
+        "src": "<iframe width=\"966\" height=\"543\" src=\"https://www.youtube.com/embed/XFjoZJb_41E\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>"
       },
       {
         "type": "video",
