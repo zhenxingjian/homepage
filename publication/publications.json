@@ -1,5 +1,23 @@
 [
   {
+    "content": "\"Simpler Certified Raidus Maximization by Propagating Covariances.\" \n Xingjian Zhen, Rudrasis Chakraborty, Vikas Singh. \n IEEE Conference on Computer Vision and Pattern Recognition (CVPR), 2021",
+    "mark": "Xingjian Zhen",
+    "bold": [
+      "Xingjian Zhen",
+      "Simpler Certified Raidus Maximization by Propagating Covariances."
+    ],
+    "italic": "IEEE Conference on Computer Vision and Pattern Recognition (CVPR), 2021",
+    "arxiv": null,
+    "pdf": null,
+    "github": null,
+    "supplement": [
+      {
+        "type": "video",
+        "src": "<iframe width=\"966\" height=\"543\" src=\"https://www.youtube.com/embed/1V9sBzlfuwY\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>"
+      },
+    ]
+  },
+  {
     "content": "\"Flow-based Generative Models for Learning Manifold to Manifold Mappings.\" \n Xingjian Zhen, Rudrasis Chakraborty, Liu Yang, Vikas Singh. \n AAAI Conference on Artificial Intelligence (AAAI), 2021",
     "mark": "Xingjian Zhen",
     "bold": [
