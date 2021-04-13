@@ -10,10 +10,10 @@
       "Department": "AWS Textract",
       "Position": "Applied Scientist Intern",
       "Location": {"span": 3,"value":"Pasadena, US"},
-      "Mentor": {"span": 3,"value":"Vijay Mahadevan"},
+      "Mentor": {"span": 3,"value":"Yuting Zhang, Luis Goncalves, and Vijay Mahadevan"},
       "Descriptions": [
         "I will join the team this summer as a research intern!",
-        "The potential aspect is OCR, table/form dection"
+        "The potential aspect is OCR, table/form detection"
       ]
     }
   },
