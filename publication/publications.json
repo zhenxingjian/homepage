@@ -1,5 +1,17 @@
 [
   {
+    "content": "\"Altered Structural Connectivity Detected with Dilated Convolutional Neural Network Analysis in the DIAN study and the Wisconsin Registry for Alzheimer's Prevention.\" \n Xingjian Zhen, Rudrasis Chakraborty, Nicholas Vogt, Ruochen Wang, Kao Lee Yang, Nagesh Adluru, Brian Gordon, Tammie Benzinger, Nicole Mckay, Tobey Betthauser, Sterling C. Johnson, Vikas Singh, Barbara B. Bendlin. \n Alzheimer's Association International Conference (AAIC), 2021",
+    "mark": "Xingjian Zhen",
+    "bold": [
+      "Xingjian Zhen",
+      "Altered Structural Connectivity Detected with Dilated Convolutional Neural Network Analysis in the DIAN study and the Wisconsin Registry for Alzheimer's Prevention."
+    ],
+    "italic": "Alzheimer's Association International Conference (AAIC), 2021",
+    "arxiv": null,
+    "pdf": "publication/WashU-AAIC2021/AAIC-2021.pdf",
+    "supplement": null,
+  },
+  {
     "content": "\"Simpler Certified Raidus Maximization by Propagating Covariances.\" \n Xingjian Zhen, Rudrasis Chakraborty, Vikas Singh. \n IEEE Conference on Computer Vision and Pattern Recognition (CVPR) oral, 2021",
     "mark": "Xingjian Zhen",
     "bold": [
@@ -9,12 +21,12 @@
     ],
     "italic": "IEEE Conference on Computer Vision and Pattern Recognition (CVPR) oral, 2021",
     "arxiv": null,
-    "pdf": null,
-    "github": null,
+    "pdf": "publication/Gaussian_Robustness-CVPR2021/Gaussian_robustness.pdf",
+    "github": "https://github.com/zhenxingjian/Propagating_Covariance",
     "supplement": [
       {
         "type": "video",
-        "src": "<iframe width=\"966\" height=\"543\" src=\"https://www.youtube.com/embed/1V9sBzlfuwY\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>"
+        "src": "<iframe width=\"966\" height=\"543\" src=\"https://www.youtube.com/embed/m1ya2oNf5iE\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>"
       }
     ],
     "background": "rgba(227,242,254,0.5)",
