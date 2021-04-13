@@ -25,7 +25,7 @@
     },
     "detail": {
       "Company": "Amazon",
-      "Department": "PARS-ML",
+      "Department": "Product Assurance Risk Security - ML",
       "Position": "Applied Scientist Intern",
       "Location": {"span": 3,"value":"Seattle, US"},
       "Mentor": {"span": 3,"value":"Karen Hovsepian, and Mingwei Shen"},
@@ -44,7 +44,7 @@
     },
     "detail": {
       "Company": "Alibaba",
-      "Department": "DAMO Academy",
+      "Department": "DAMO Academy, Medical AI Algorithm Research Group",
       "Position": "Research Intern",
       "Location": {"span": 3,"value":"Beijing, China"},
       "Mentor": {"span": 3,"value":"Ying Chi"},
