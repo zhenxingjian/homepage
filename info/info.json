@@ -34,7 +34,7 @@
     }
   ],
   "courses": {
-    "maxShow": 8,
+    "maxShow": 12,
     "list": [
       "Computer Vision",
       "Nonlinear Optimization I",
