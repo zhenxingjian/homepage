@@ -1,8 +1,18 @@
 [
   {
-    "title": "Certiﬁed Robustness Training via Gaussian Distribution",
+    "title": "Altered Structural Connectivity Detection in DIAN and WRAP Study",
     "start": "01/2020",
-    "end": "05/2020",
+    "end": "04/2021",
+    "descriptions": [
+      "Used TractSeg and Tractometry to compute the average representation along 50 fiber bundles",
+      "Applied the proposed manifold DCNN on fiber representation of the DTI images",
+      "Got statistically significant difference on 14 and 16 (out of 50) fiber bundles, by PiB-PET and Gene mutation carriers, on DIAN and WRAP dataset, with total 9 fiber bundles in common",
+    ]
+  },
+  {
+    "title": "Certified Robustness Training via Gaussian Distribution",
+    "start": "01/2020",
+    "end": "11/2020",
     "descriptions": [
       "Applied the certifiable randomized smoothing robustness without sampling with 2× to 5× faster",
       "Proposed a tight estimation of the channel-wise Gaussian distribution to reduce the cost from exponential to linear",
