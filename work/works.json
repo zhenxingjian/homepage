@@ -2,6 +2,24 @@
   {
     "required": {
       "title": "Applied Scientist Intern in Amazon",
+      "from": "05/2021",
+      "to": "09/2021"
+    },
+    "detail": {
+      "Company": "Amazon",
+      "Department": "AWS Textract",
+      "Position": "Applied Scientist Intern",
+      "Location": {"span": 3,"value":"Pasadena, US"},
+      "Mentor": {"span": 3,"value":"Vijay Mahadevan"},
+      "Descriptions": [
+        "I will join the team this summer as a research intern!",
+        "The potential aspect is OCR, table/form dection"
+      ]
+    }
+  },
+  {
+    "required": {
+      "title": "Applied Scientist Intern in Amazon",
       "from": "05/2020",
       "to": "09/2020"
     },
