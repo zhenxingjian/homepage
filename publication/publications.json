@@ -20,7 +20,7 @@
       "oral"
     ],
     "italic": "IEEE Conference on Computer Vision and Pattern Recognition (CVPR) oral, 2021",
-    "arxiv": null,
+    "arxiv": "http://arxiv.org/abs/2104.05888",
     "pdf": "publication/Gaussian_Robustness-CVPR2021/Gaussian_robustness.pdf",
     "github": "https://github.com/zhenxingjian/Propagating_Covariance",
     "supplement": [
