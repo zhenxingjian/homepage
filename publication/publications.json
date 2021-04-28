@@ -8,7 +8,8 @@
     ],
     "italic": "Annual Conference of the North American Chapter of the Association for Computational Linguistics Workshop on Multimodal Artificial Intelligence (NAACL-MAI-Workshop), 2021",
     "arxiv": null,
-    "pdf": null,
+    "pdf": "publication/ExpTextVQA-NAACL-MAI/ExpTextVQA.pdf",
+    "github": "https://github.com/amzn/explainable-text-vqa",
     "supplement": {}
   },
   {
