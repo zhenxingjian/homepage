@@ -7,7 +7,7 @@
       "A First Look: Towards Explainable TextVQA Models via Visual and Textual Explanations."
     ],
     "italic": "Annual Conference of the North American Chapter of the Association for Computational Linguistics Workshop on Multimodal Artificial Intelligence (NAACL-MAI-Workshop), 2021",
-    "arxiv": null,
+    "arxiv": "http://arxiv.org/abs/2105.02626",
     "pdf": "publication/ExpTextVQA-NAACL-MAI/ExpTextVQA.pdf",
     "github": "https://github.com/amzn/explainable-text-vqa",
     "supplement": {
