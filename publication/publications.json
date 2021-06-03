@@ -41,6 +41,10 @@
     "github": "https://github.com/zhenxingjian/Propagating_Covariance",
     "supplement": [
       {
+        "type": "image",
+        "src": "publication/Gaussian_Robustness-CVPR2021/Gaussian_Robustness_Poster.png"
+      },
+      {
         "type": "video",
         "src": "<iframe width=\"966\" height=\"543\" src=\"https://www.youtube.com/embed/m1ya2oNf5iE\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>"
       }
