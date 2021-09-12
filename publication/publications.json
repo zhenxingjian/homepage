@@ -25,7 +25,16 @@
     "italic": "Alzheimer's Association International Conference (AAIC), 2021",
     "arxiv": null,
     "pdf": "publication/WashU-AAIC2021/AAIC-2021.pdf",
-    "supplement": {}
+    "supplement": [
+      {
+        "type": "image",
+        "src": "publication/WashU-AAIC2021/AAIC2021_Poster.png"
+      },
+      {
+        "type": "video",
+        "src": "<iframe width=\"966\" height=\"543\" src=\"https://www.youtube.com/embed/K6hiTmMbl9U\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>"
+      }
+    ]
   },
   {
     "content": "\"Simpler Certified Raidus Maximization by Propagating Covariances.\" \n Xingjian Zhen, Rudrasis Chakraborty, Vikas Singh. \n IEEE Conference on Computer Vision and Pattern Recognition (CVPR) oral, 2021",
