@@ -3,17 +3,18 @@
     "required": {
       "title": "Applied Scientist Intern in Amazon",
       "from": "05/2021",
-      "to": "09/2021"
+      "to": "08/2021"
     },
     "detail": {
       "Company": "Amazon",
       "Department": "AWS Textract",
       "Position": "Applied Scientist Intern",
       "Location": {"span": 3,"value":"Pasadena, US"},
-      "Mentor": {"span": 3,"value":"Yuting Zhang, Luis Goncalves, and Vijay Mahadevan"},
+      "Mentor": {"span": 3,"value":"Vijay Mahadevan, Zhuowen Tu, and Qi Dong"},
       "Descriptions": [
-        "I will join the team this summer as a research intern!",
-        "The potential aspect is OCR, table/form detection"
+        "Introduced transformer based agent method that takes pair-wise input to do the co-detection",
+        "In the small in-house dataset, our method improved 6% from the current SOTA, while in the entire dataset, the F1 score is 0.5% better",
+        "In the MS-COCO dataset for object detection, our method beats Deformable DETR on small dataset by 4%"
       ]
     }
   },
