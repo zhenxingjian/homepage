@@ -1,5 +1,21 @@
 [
   {
+    "content": "\"On the Versatile Uses of Partial Distance Correlation in Deep Learning.\" \n Xingjian Zhen, Zihang Meng, Rudrasis Chakraborty, Vikas Singh. \n European Conference on Computer Vision (ECCV), 2022",
+    "mark": "Xingjian Zhen",
+    "bold": [
+      "Xingjian Zhen",
+      "On the Versatile Uses of Partial Distance Correlation in Deep Learning."
+    ],
+    "italic": "European Conference on Computer Vision (ECCV), 2022",
+    "arxiv": "http://arxiv.org/submit/4411444",
+    "pdf": "publication/Distance_Correlation/Distance_Correlation.pdf",
+    "github": "https://github.com/zhenxingjian/Partial_Distance_Correlation",
+    "supplement": {
+        "type": "video",
+        "src": "<iframe width=\"966\" height=\"543\" src=\"https://www.youtube.com/embed/F7MSjx7FVZg\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>"
+      }
+  },
+  {
     "content": "\"A First Look: Towards Explainable TextVQA Models via Visual and Textual Explanations.\" \n Xingjian Zhen, Varun Nagaraj Rao, Karen Hovsepian, Mingwei Shen. \n Annual Conference of the North American Chapter of the Association for Computational Linguistics Workshop on Multimodal Artificial Intelligence (NAACL-MAI-Workshop), 2021",
     "mark": "Xingjian Zhen",
     "bold": [
