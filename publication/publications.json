@@ -1,4 +1,17 @@
-[
+[ 
+  {
+    "content": "\"Frank-Wolfe based Anytime Neural Networks.\" \n Zihang Meng, Xingjian Zhen, Sathya N. Ravi, Vikas Singh. \n In Submission",
+    "mark": "Xingjian Zhen",
+    "bold": [
+      "Xingjian Zhen",
+      "Frank-Wolfe based Anytime Neural Networks."
+    ],
+    "italic": "In Submission",
+    "arxiv": null,
+    "pdf": null,
+    "github": null,
+    "supplement": {}
+  },
   {
     "content": "\"On the Versatile Uses of Partial Distance Correlation in Deep Learning.\" \n Xingjian Zhen, Zihang Meng, Rudrasis Chakraborty, Vikas Singh. \n European Conference on Computer Vision (ECCV), 2022",
     "mark": "Xingjian Zhen",
