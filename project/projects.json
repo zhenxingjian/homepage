@@ -1,5 +1,15 @@
 [
   {
+    "title": "Partial Distance Correlation (PDC) in Deep Learning and the Benefit",
+    "start": "12/2020",
+    "end": "03/2022",
+    "descriptions": [
+      "Introduced DC into robustness so that the transferred attack accuracy under PGD drops 9%",
+      "Enabled training a network conditioned on another by Partial DC, and analysis ViT over ResNet",
+      "Used DC to disentangle the latent representation, and generated SOTA manipulate image on FFHD"
+    ]
+  },
+  {
     "title": "Altered Structural Connectivity Detection in DIAN and WRAP Study",
     "start": "01/2020",
     "end": "04/2021",

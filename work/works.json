@@ -1,6 +1,23 @@
 [
   {
     "required": {
+      "title": "Research Intern (AI)",
+      "from": "05/2022",
+      "to": "09/2022"
+    },
+    "detail": {
+      "Company": "META",
+      "Department": "Modeling Foundation",
+      "Position": "Research Intern (AI)",
+      "Location": {"span": 3,"value":"Menlo Park, US"},
+      "Mentor": {"span": 3,"value":"Xin Qian, Xing Wang, Mike Rabbat, Aaron Defazio"},
+      "Descriptions": [
+        "TBD"
+      ]
+    }
+  },
+  {
+    "required": {
       "title": "Applied Scientist Intern in Amazon",
       "from": "05/2021",
       "to": "08/2021"
