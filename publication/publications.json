@@ -51,7 +51,7 @@
         "src": "<iframe width=\"966\" height=\"543\" src=\"https://www.youtube.com/embed/xIeDcih_OdI\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>"
       }
     ],
-    "background": "rgba(255,0,77,0.4)",
+    "background": "rgba(245,39,145,0.3)",
     "colorMap": {
       "rgba(200,30,31,1)": [
         "Best Paper Award"
