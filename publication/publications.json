@@ -26,20 +26,38 @@
     "supplement": {}
   },
   {
-    "content": "\"On the Versatile Uses of Partial Distance Correlation in Deep Learning.\" \n Xingjian Zhen, Zihang Meng, Rudrasis Chakraborty, Vikas Singh. \n European Conference on Computer Vision (ECCV), 2022",
+    "content": "\"On the Versatile Uses of Partial Distance Correlation in Deep Learning.\" \n Xingjian Zhen, Zihang Meng, Rudrasis Chakraborty, Vikas Singh. \n European Conference on Computer Vision (ECCV) Best Paper Award, 2022",
     "mark": "Xingjian Zhen",
     "bold": [
       "Xingjian Zhen",
-      "On the Versatile Uses of Partial Distance Correlation in Deep Learning."
+      "On the Versatile Uses of Partial Distance Correlation in Deep Learning.",
+      "Best Paper Award"
     ],
-    "italic": "European Conference on Computer Vision (ECCV), 2022",
+    "italic": "European Conference on Computer Vision (ECCV) Best Paper Award, 2022",
     "arxiv": "https://arxiv.org/abs/2207.09684",
     "pdf": "publication/Distance_Correlation/Distance_Correlation.pdf",
     "github": "https://github.com/zhenxingjian/Partial_Distance_Correlation",
-    "supplement": {
+    "supplement": [
+      {
+        "type": "image",
+        "src": "publication/Distance_Correlation/dc_poster.png"
+      },
+      {
         "type": "video",
-        "src": "<iframe width=\"966\" height=\"543\" src=\"https://www.youtube.com/embed/F7MSjx7FVZg\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>"
-      }
+        "src": "<iframe width=\"966\" height=\"543\" src=\"https://www.youtube.com/embed/svGAIEnv0EI\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>"
+      },
+      {
+        "type": "video",
+        "src": "<iframe width=\"966\" height=\"543\" src=\"https://www.youtube.com/embed/xIeDcih_OdI\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>"
+      },
+    ],
+    "background": "rgba(227,242,254,0.5)",
+    "colorMap": {
+      "rgba(200,30,31,1)": [
+        "Best Paper Award"
+      ],
+      "rgba(255,0,0,1)": []
+    }
   },
   {
     "content": "\"A First Look: Towards Explainable TextVQA Models via Visual and Textual Explanations.\" \n Xingjian Zhen, Varun Nagaraj Rao, Karen Hovsepian, Mingwei Shen. \n Annual Conference of the North American Chapter of the Association for Computational Linguistics Workshop on Multimodal Artificial Intelligence (NAACL-MAI-Workshop), 2021",
