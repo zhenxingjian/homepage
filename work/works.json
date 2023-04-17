@@ -1,6 +1,23 @@
 [
   {
     "required": {
+      "title": "Scientist I",
+      "from": "04/2023",
+      "to": "-"
+    },
+    "detail": {
+      "Company": "Allen Institute for Brain Science",
+      "Department": "Alzheimer's Disease",
+      "Position": "Scientist I",
+      "Location": {"span": 3,"value":"Seattle, US"},
+      "Mentor": {"span": 3,"value":"Mariano Gabitto"},
+      "Descriptions": [
+        "TBD"
+      ]
+    }
+  },
+  {
+    "required": {
       "title": "Research Intern (AI)",
       "from": "05/2022",
       "to": "09/2022"
@@ -12,7 +29,8 @@
       "Location": {"span": 3,"value":"Menlo Park, US"},
       "Mentor": {"span": 3,"value":"Xin Qian, Xing Wang, Mike Rabbat, Aaron Defazio"},
       "Descriptions": [
-        "TBD"
+        "Proposed 4 methods to communicate the gradient information among the multi-runs of the deep learning recommendation models",
+        "For the Criteo 1T benchmark, we show 1% better test AUROC, and 4% smaller generalization gap"
       ]
     }
   },
