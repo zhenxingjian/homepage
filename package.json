@@ -7,7 +7,7 @@
     "babel-plugin-import": "^1.12.2",
     "customize-cra": "^0.7.0",
     "gh-pages": "^5.0.0",
-    "less": "^3.10.3",
+    "less": "^3.13.1",
     "less-loader": "^5.0.0",
     "react": "^16.9.0",
     "react-app-rewired": "^2.1.3",
