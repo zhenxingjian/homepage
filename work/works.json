@@ -1,9 +1,27 @@
-[
+[ 
+  {
+    "required": {
+      "title": "Research Scientist",
+      "from": "02/2024",
+      "to": "-"
+    },
+    "detail": {
+      "Company": "Meta",
+      "Department": "AI Infra",
+      "Position": "Research Scientist",
+      "Location": {"span": 3,"value":"Bellevue, US"},
+      "Mentor": {"span": 3,"value":"Xin Qian, Grey Yang, and Yariv Sadan"},
+      "Descriptions": [
+        "Suggested enhancements to the recommendation system, aimed at optimizing efficiency across an extensive dataset of over 2.8 billion real-world users",
+        "Proposed streamlining the pipeline within Facebook’s internal platform, aiming to alleviate the workload of deep learning engineers"
+      ]
+    }
+  },
   {
     "required": {
       "title": "Scientist I",
       "from": "04/2023",
-      "to": "-"
+      "to": "04/2024"
     },
     "detail": {
       "Company": "Allen Institute for Brain Science",
@@ -12,7 +30,8 @@
       "Location": {"span": 3,"value":"Seattle, US"},
       "Mentor": {"span": 3,"value":"Mariano Gabitto"},
       "Descriptions": [
-        "TBD"
+        "Utilized Variational Autoencoder (VAE) techniques to analyze both single-cell RNA and multimodal data, resulting in a remarkable 0.86 mean F1 score and 91% accuracy across 138 classes",
+        "Pioneered the implementation of the innovative approach, named CELL and CELLBLAST, on MapMyCells platform, democratizing access for the wider scientiﬁc community"
       ]
     }
   },
@@ -27,7 +46,7 @@
       "Department": "Modeling Foundation",
       "Position": "Research Intern (AI)",
       "Location": {"span": 3,"value":"Menlo Park, US"},
-      "Mentor": {"span": 3,"value":"Xin Qian, Xing Wang, Mike Rabbat, Aaron Defazio"},
+      "Mentor": {"span": 3,"value":"Xin Qian, Xing Wang, Mike Rabbat, and Aaron Defazio"},
       "Descriptions": [
         "Proposed 4 methods to communicate the gradient information among the multi-runs of the deep learning recommendation models",
         "For the Criteo 1T benchmark, we show 1% better test AUROC, and 4% smaller generalization gap"

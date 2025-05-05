@@ -1,6 +1,6 @@
 {
   "name": "Xingjian Zhen",
-  "mail": "zhenxingjian1995@cs.wisc.edu",
+  "mail": "zhenxingjian1995@gmail.com",
   "github": "https://github.com/zhenxingjian",
   "cover": "cover/Selfie.png",
   "where": [
@@ -16,16 +16,16 @@
   "education": [
     {
       "descriptions": [
-        "Aug.2017 - present",
-        "Ph.D. Candidate,",
+        "Aug. 2017 - Mar. 2023",
+        "Ph.D.",
         "Department of Computer Science",
         "UW-Madision, WI, U.S."
       ],
-      "status": "processing"
+      "status": "done"
     },
     {
       "descriptions": [
-        "Aug.2013 - Jul. 2017",
+        "Aug. 2013 - Jul. 2017",
         "B.E.",
         "Department of Electronic Engineering",
         "Tsinghua University, Beijing, P.R. China"
@@ -55,7 +55,7 @@
       "Experimental Design I"
     ]
   },
-  "interests": "<p>I'm Xingjian Zhen, a PhD. student in the <a href=\"https://www.cs.wisc.edu\">Department of Computer Science</a> at <a href=\"https://www.wisc.edu\">University of Wisconsin-Madison</a>. My advisor is Prof. <a href=\"https://www.biostat.wisc.edu/~vsingh/\">Vikas Singh</a>. I also work closely with <a href=\"https://rudra1988.github.io\">Rudrasis Chakraborty</a>. Before that, I got my B.E. degree in <a href=\"https://www.tsinghua.edu.cn/publish/eeen/\">Department of Electronic Engineering</a> from <a href=\"https://www.tsinghua.edu.cn/publish/thu2018en/index.html\">Tsinghua University</a> in 2017. </p><p>My research interest is Computer Vision, Deep learning, Differential Geometry, Statistics, and Medical Imaging. I am particularly interested in the application of deep learning in medical area. I feel AI+Medical will be the future of the hospital. </p><p>I have publication in NeurIPS, ICCV, CVPR, AAAI, ECCV etc. Till now, I have one <mark class=\"red\"> Best Paper Award </mark> (in ECCV 2022), and two Oral presentations (in CVPR 2020, and CVPR 2021). Details can be found in my publication page or my google scholar page. I'm open to any kinds of collaboration. Please feel free to contact me directly through email.</p><p>I have joined Allen Institute for Brain Science since 2023.</p>",
+  "interests": "<p>I'm Xingjian Zhen, a PhD. graduated from the <a href=\"https://www.cs.wisc.edu\">Department of Computer Science</a> at <a href=\"https://www.wisc.edu\">University of Wisconsin-Madison</a>. My advisor is Prof. <a href=\"https://www.biostat.wisc.edu/~vsingh/\">Vikas Singh</a>. I also work closely with <a href=\"https://rudra1988.github.io\">Rudrasis Chakraborty</a>. Before that, I got my B.E. degree in <a href=\"https://www.tsinghua.edu.cn/publish/eeen/\">Department of Electronic Engineering</a> from <a href=\"https://www.tsinghua.edu.cn/publish/thu2018en/index.html\">Tsinghua University</a> in 2017. </p><p>My research interest is Computer Vision, Deep learning, Differential Geometry, Statistics, and Medical Imaging. I am particularly interested in the application of deep learning in medical area. I feel AI+Medical will be the future of the hospital. </p><p>I have publication in NeurIPS, ICCV, CVPR, AAAI, ECCV etc. Till now, I have one <mark class=\"red\"> Best Paper Award </mark> (in ECCV 2022), and two Oral presentations (in CVPR 2020, and CVPR 2021). Details can be found in my publication page or my google scholar page. I'm open to any kinds of collaboration. Please feel free to contact me directly through email.</p><p>I have joined Meta since 2024.</p><p>Previously I worked in Allen Institute for Brain Science from April 2023 to April 2024.</p>",
   "FYI": [
     {
       "title": "My Github Page",
@@ -63,7 +63,7 @@
     },
     {
       "title": "My CV",
-      "url": "https://github.com/zhenxingjian/CV_Xingjian/raw/master/Xingjian_CV_UW_Madison.pdf"
+      "url": "https://github.com/zhenxingjian/CV_Xingjian/raw/master/Xingjian_CV.pdf"
     },
     {
       "title": "My Google Scholar Page",
